@@ -813,21 +813,24 @@ main { max-width: 1100px; margin: auto; padding: 120px 5% 80px; }
       <div class="skill-icon">🤖</div>
       <h3>Machine Learning</h3>
       <div class="skill-tags">
-        <span class="tag">XGBoost</span>
         <span class="tag">Logistic Regression</span>
+        <span class="tag">Linear SVM</span>
         <span class="tag">Scikit-learn</span>
-        <span class="tag">SHAP</span>
-        <span class="tag">SMOTE</span>
+        <span class="tag">PySpark ML</span>
+        <span class="tag">Model Evaluation</span>
       </div>
     </div>
 
     <div class="skill-card">
       <div class="skill-icon">🧠</div>
+      <h3>NLP &amp; Text ML</h3>
       <div class="skill-tags">
-        <span class="tag-purple">FinBERT</span>
-        <span class="tag-purple">Hugging Face</span>
-        <span class="tag-purple">Transformers</span>
+        <span class="tag-purple">TF-IDF</span>
+        <span class="tag-purple">Tokenizer</span>
+        <span class="tag-purple">HashingTF</span>
+        <span class="tag-purple">StringIndexer</span>
         <span class="tag-purple">Sentiment Analysis</span>
+        <span class="tag-purple">Cosine Similarity</span>
       </div>
     </div>
 
@@ -845,12 +848,14 @@ main { max-width: 1100px; margin: auto; padding: 120px 5% 80px; }
 
     <div class="skill-card">
       <div class="skill-icon">⚙️</div>
-      <h3>Tools & Deployment</h3>
+      <h3>Tools &amp; Technologies</h3>
       <div class="skill-tags">
         <span class="tag">Git</span>
         <span class="tag">GitHub</span>
+        <span class="tag">PySpark</span>
+        <span class="tag">Jupyter Notebook</span>
+        <span class="tag">VS Code</span>
         <span class="tag">Streamlit</span>
-        <span class="tag">Kaggle</span>
       </div>
     </div>
 
@@ -917,69 +922,80 @@ main { max-width: 1100px; margin: auto; padding: 120px 5% 80px; }
       </div>
     </div>
 
-    <!-- GIM -->
+    <!-- IMDB SENTIMENT ANALYSIS -->
     <div class="project-card">
       <div class="project-header">
-        <div class="project-emoji">🌱</div>
-        <span class="project-status">LIVE</span>
+        <div class="project-emoji">🎬</div>
+        <span class="project-status">PYSPARK</span>
       </div>
-      <h3>Green India Mission Data Analysis</h3>
-      <p>EDA on Green India Mission data to study funding patterns and physical area covered across Indian states. State-wise and year-wise analysis to identify performance gaps and development patterns.</p>
+      <h3>IMDB Sentiment Analysis using PySpark</h3>
+      <p>Beginner-friendly PySpark project demonstrating a data engineering workflow using Bronze, Silver, and Gold layers, followed by a Machine Learning pipeline for sentiment analysis and prediction using Logistic Regression.</p>
 
       <div class="project-meta">
         <div class="meta-row">
-          <span class="meta-label">Focus</span>
-          <span class="meta-val">State-wise performance &amp; <strong>yearly trend tracking</strong></span>
+          <span class="meta-label">Workflow</span>
+          <span class="meta-val">Bronze → Silver → Gold → <strong>ML Pipeline</strong></span>
+        </div>
+        <div class="meta-row">
+          <span class="meta-label">Dataset</span>
+          <span class="meta-val">IMDB movie reviews — review &amp; sentiment</span>
         </div>
         <div class="meta-row">
           <span class="meta-label">Stack</span>
-          <span class="meta-val">Pandas · NumPy · Matplotlib · Seaborn</span>
+          <span class="meta-val">Python · PySpark · Jupyter Notebook · VS Code</span>
         </div>
       </div>
 
       <div class="project-stack">
-        <span class="tag">EDA</span>
-        <span class="tag">Policy Data</span>
-        <span class="tag">State Analysis</span>
-        <span class="tag">Visualisation</span>
+        <span class="tag">Bronze Layer</span>
+        <span class="tag">Silver Layer</span>
+        <span class="tag">Gold Layer</span>
+        <span class="tag">PySpark ML</span>
+        <span class="tag">Logistic Regression</span>
       </div>
 
       <div class="project-btns">
-        <button class="p-btn p-btn-ghost" style="width:100%">GitHub &nearr;</button>
+        <a class="p-btn p-btn-primary" href="https://github.com/Kirthick45/imdb-sentiment-pyspark-pipeline" target="_blank">GitHub &rarr;</a>
       </div>
     </div>
 
-    <!-- CPU Scheduling -->
+    <!-- RESUME CLASSIFICATION -->
     <div class="project-card">
       <div class="project-header">
-        <div class="project-emoji">💻</div>
-        <span class="project-status-amber">SIH 2025</span>
+        <div class="project-emoji">📄</div>
+        <span class="project-status">ATS PROTOTYPE</span>
       </div>
-      <h3>CPU Scheduling Visualizer</h3>
-      <p>Interactive Streamlit app that simulates and visualizes four OS scheduling algorithms — FCFS, SJF, Priority, and Round Robin. Real-time Gantt charts, performance metrics, and resource allocation analysis directly applicable to ML pipeline scheduling.</p>
+      <h3>Resume Classification &amp; Candidate Ranking System</h3>
+      <p>An ATS prototype that classifies resumes into job roles and ranks candidates against job descriptions using text-based feature extraction, machine learning classification, and similarity matching.</p>
 
       <div class="project-meta">
         <div class="meta-row">
-          <span class="meta-label">Algorithms</span>
-          <span class="meta-val">FCFS · SJF · Priority · <strong>Round Robin</strong></span>
+          <span class="meta-label">Features</span>
+          <span class="meta-val">Resume Classification · <strong>Candidate Ranking</strong></span>
+        </div>
+        <div class="meta-row">
+          <span class="meta-label">Matching</span>
+          <span class="meta-val">ATS-style matching with Cosine Similarity</span>
         </div>
         <div class="meta-row">
           <span class="meta-label">Stack</span>
-          <span class="meta-val">Python · Streamlit · Pandas · Matplotlib</span>
+          <span class="meta-val">Python · Scikit-learn · TF-IDF · Logistic Regression · Linear SVM</span>
         </div>
       </div>
 
       <div class="project-stack">
-        <span class="tag">Scheduling</span>
-        <span class="tag">Streamlit</span>
-        <span class="tag">Gantt Chart</span>
-        <span class="tag">SIH25091</span>
+        <span class="tag">TF-IDF</span>
+        <span class="tag">Logistic Regression</span>
+        <span class="tag">Linear SVM</span>
+        <span class="tag">Cosine Similarity</span>
+        <span class="tag">ATS</span>
       </div>
 
       <div class="project-btns">
-        <button class="p-btn p-btn-ghost" style="width:100%">GitHub &nearr;</button>
+        <a class="p-btn p-btn-primary" href="https://github.com/Kirthick45/Resumeclassifier" target="_blank">GitHub &rarr;</a>
       </div>
     </div>
+
 
   </div>
 </section>
@@ -1083,7 +1099,7 @@ main { max-width: 1100px; margin: auto; padding: 120px 5% 80px; }
     <div class="otw-banner">
       <div class="otw-dot"></div>
       <div class="otw-text">
-        <strong>Open to Opportunities</strong> — Data Science Intern · ML Research · Open Source Collaboration ·
+        <strong>Open to Opportunities</strong> — ML Research · Open Source Collaboration ·
         B.Tech CS (Data Science &amp; Data Engineering) · LPU 2028
       </div>
     </div>
